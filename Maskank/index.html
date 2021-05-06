@@ -1,0 +1,609 @@
+﻿<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="Content/img/favicon.ico">
+    <title>Maskank - مسكنك</title>
+    <link href="Content/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Content/css/animate.css" rel="stylesheet" />
+    <link href="Content/css/icofont.min.css" rel="stylesheet" />
+    <link href="Content/css/meanmenu.css" rel="stylesheet" />
+    <link href="Content/css/style.css" rel="stylesheet" />
+    <link href="Content/css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- PreLoader -->
+    <div class="loader-content">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="sk-folding-cube">
+                    <div class="sk-cube1 sk-cube"></div>
+                    <div class="sk-cube2 sk-cube"></div>
+                    <div class="sk-cube4 sk-cube"></div>
+                    <div class="sk-cube3 sk-cube"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------header---------------------------->
+    <section id="header" class="pt-3">
+        <div class="navbar-area">
+            <!-- For Mobile Device -->
+            <div class="mobile-nav">
+                <a href="#" class="logo">
+                    <img src="Content/img/logo.png" alt="logo">
+                </a>
+            </div>
+            <!-- For Desktop Device -->
+            <div class="main-nav">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg stroke p-0">
+                        <a class="navbar-brand pr-3" href="#">
+                            <img src="Content/img/logo.png" alt="logo">
+                        </a>
+                        <div class="collapse navbar-collapse mean-menu">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">ما هو مسكنك</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link active">خدمات مسكنك</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">شروط البرنامج</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">طلب سكن</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">طرق السداد</a>
+                                </li>
+                            </ul>
+                            <ul class="social-contact form-inline">
+                                <li class="icofont-instagram"> </li>
+                                <li class="icofont-google-plus"> </li>
+                                <li class="icofont-whatsapp"> </li>
+                                <li class="icofont-twitter"> </li>
+                                <li class="icofont-facebook"> </li>
+                            </ul>
+                            <ul class="phone-contact">
+                                <li>
+                                    <i class="icofont-phone text-success"></i>
+                                    <span>+9669123123123</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 maskank-program pt-7 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+                    <h1 class="text-white font-weight-bold">
+                        برنامج مسكنك
+                    </h1>
+                    <h3 class="text-white">
+                        تملك نسكنك كما تحلم ان يكون
+                    </h3>
+                    <p class="text-white p-width">
+                        فقط حدد مميزات مسكنك المطلوب و إحصل علي مسكنك بسعر التكلفة
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12 adv-form pt-7 pr-0 pl-0 wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s">
+                    <div class="col-12 d-flex justify-content-end p-0">
+                        <img src="Content/img/pers.png" />
+                    </div>
+                    <div class="col-12">
+                        <form>
+                            <h2 class="text-center">
+                                حدد مميزات مسكنك
+                            </h2>
+                            <h5 class="main-color text-center mb-4">أطلب مسكنك الَان في المملكة .. كما تحلم أن يكون</h5>
+                            <div class="form-row">
+                                <div class="form-group col-md-6 col-12">
+                                    <input type="text" class="form-control" placeholder="إسم العميل">
+                                </div>
+                                <div class="form-group col-md-6 col-12">
+                                    <select id="" class="form-control">
+                                        <option selected>المدينة</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group  col-md-6">
+                                    <input type="email" class="form-control" placeholder="البريد الإلكتروني">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <select id="inputState" class="form-control">
+                                        <option selected>الحي</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" placeholder="رقم الهاتف">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <select id="inputState" class="form-control">
+                                        <option selected>عدد الغرف</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <select id="inputState" class="form-control">
+                                        <option selected>نوع العقار</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <button type="submit" class="btn secondary-bg text-white w-100"><span>أطلب مسكنك الأن</span></button>
+                                </div>
+                            </div>
+                            <span class="text-gray"> * نتعهد بعدم تسليم معلوماتك الشخصيةلأي جهة او أشخاص أخرين .</span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-5 about-section">
+            <div class="row">
+                <div class="col-lg-8 col-12">
+                    <h3 class="secondary-color wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">ما هو مسكنك</h3>
+                    <img src="Content/img/divider.png" class="fadeInUp animated" />
+                    <p class="text-gray pt-4 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay=".5s">
+                        هو إحدي البرامج المسؤولية الإجتماعية لشركة إلمار العقارية ,
+                        <br />
+                        <span>
+                            وهو تملك العقار بناء علي طلب ورغبة العميل من حيث يختار (المدينة - الحي -نوع العقار - عدد الغرف)
+                            <br />
+                            ومن ثم نقوم نحن بشراء الأصل او العقار, ومن ثم نقوم بتطويره وبيعه للعميل بسعر التكافة.
+                        </span>
+                    </p>
+                    <h6 class="main-color p-2 mb-4 wow fadeIn" data-wow-duration="2s" data-wow-delay=".5s">
+                        يمثل هذا البرنامج علاقة بين طرفين وهم :
+                    </h6>
+                    <ul class="text-gray wow fadeInRight" data-wow-duration="2s" data-wow-delay=".5s">
+                        <li>مسكنك (شركة إلمار العاقرية ) والعميل</li>
+                        <li>يقوم العميل بإختيار (للمدينة - الحي- نوع العقار - عدد الغرف) التاي يرغب في تملكها حسب المواصفات التي ترغب بيها</li>
+                        <li>نقوم بإتمام مراحل البحث عن الأصل والبناء كما هو متفق عليه في العقد</li>
+                        <li>في النهاية تسلم الوحدة إلي العميل جاهزة للسكن بسعر التكلفة</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-12 d-flex align-items-flex-end justify-content-center vedio wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                    <img src="Content/img/vid_img.png" class="w-100" />
+                    <h3 class="text-white mt-2">
+                        شاهد الفيديو التعريفي لمسكنك
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------services-------------------------->
+    <section class="services mt-5">
+        <div class="container text-center">
+            <div class="col-12 pb-5 p-xs-0">
+                <h3 class="secondary-color wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">خدمات مسكنك</h3>
+                <img src="Content/img/divider.png" />
+            </div>
+            <div class="col-12">
+                <div class="row p-xs-0 m-xs-0 first-row">
+                    <div class="col d-flex justify-content-center align-items-center wow fadeInLeft hover-box" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="testimonial">
+                            <div class="module-border-wrap mt-3">
+                                <div class="module">
+                                    <img src="Content/img/img1.png" class="service-img" />
+                                    <h5 class="mt-3 mb-0">الصك بإسمك</h5>
+                                </div>
+                            </div>
+                            <div class="overlay">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center align-items-center hover-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="testimonial">
+                            <div class="module-border-wrap mt-3">
+                                <div class="module">
+                                    <img src="Content/img/img2.png" class="service-img" />
+                                    <h5 class="mt-3 mb-0">سرعة الإنجاز</h5>
+                                </div>
+                            </div>
+                            <div class="overlay">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center align-items-center hover-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="testimonial">
+                            <div class="module-border-wrap mt-3">
+                                <div class="module">
+                                    <img src="Content/img/img3.png" class="service-img" />
+                                    <h5 class="mt-3 mb-0">أمن وحراسة</h5>
+                                </div>
+                            </div>
+                            <div class="overlay">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center hover-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="testimonial">
+                            <div class="module-border-wrap mt-3">
+                                <div class="module">
+                                    <img src="Content/img/img4.png" class="service-img" />
+                                    <h5 class="mt-3 mb-0">النظام الذكي</h5>
+                                </div>
+                            </div>
+                            <div class="overlay">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center hover-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="testimonial">
+                            <div class="module-border-wrap mt-3">
+                                <div class="module">
+                                    <img src="Content/img/img5.png" class="service-img" />
+                                    <h5 class="mt-3 mb-0">حماية إلكترونية</h5>
+                                </div>
+                            </div>
+                            <div class="overlay">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-xs-0 second-row">
+                    <div class="col d-flex justify-content-center align-items-center hover-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="testimonial">
+                            <div class="module-border-wrap mt-3">
+                                <div class="module">
+                                    <img src="Content/img/img6.png" class="service-img" />
+                                    <h5 class="mt-3 mb-0">حضانة أطفال</h5>
+                                </div>
+                            </div>
+                            <div class="overlay">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center align-items-center hover-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="testimonial">
+                            <div class="module-border-wrap mt-3">
+                                <div class="module">
+                                    <img src="Content/img/img7.png" class="service-img" />
+                                    <h5 class="mt-3 mb-0">غاز مركزي</h5>
+                                </div>
+                            </div>
+                            <div class="overlay">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center hover-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="testimonial">
+                            <div class="module-border-wrap mt-3">
+                                <div class="module">
+                                    <img src="Content/img/img8.png" class="service-img" />
+                                    <h5 class="mt-3 mb-0">ضمان لي الخدمات</h5>
+                                </div>
+                            </div>
+                            <div class="overlay">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center align-items-center hover-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="testimonial">
+                            <div class="module-border-wrap mt-3">
+                                <div class="module">
+                                    <img src="Content/img/img9.png" class="service-img" />
+                                    <h5 class="mt-3 mb-0">إدارة إتحاد الملاك</h5>
+                                </div>
+                            </div>
+                            <div class="overlay">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center align-items-center hover-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="testimonial">
+                            <div class="module-border-wrap mt-3">
+                                <div class="module">
+                                    <img src="Content/img/img10.png" class="service-img" />
+                                    <h5 class="mt-3 mb-0">خدمة (تم ) للصيانة</h5>
+                                </div>
+                            </div>
+                            <div class="overlay">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="col-12">
+            <hr />
+        </div>
+    </div>
+    <!------------------------Admission application------------>
+    <section class="application mt-4">
+        <div class="container">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6 col-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                        <h3 class="secondary-color">شروط التقدم</h3>
+                        <img src="Content/img/divider.png" />
+                        <ul class="mt-2 text-gray wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                            <li>
+                                <i class="icofont-check text-white mr-2"></i>
+                                <span>سعودي الجنسية</span>
+                            </li>
+                            <li>
+                                <i class="icofont-check text-white mr-2"></i>
+                                <span>السن فوق 20 سنة</span>
+                            </li>
+                            <li>
+                                <i class="icofont-check text-white mr-2"></i>
+                                <span>يجب أن يكون موظف في القطاع الحكومي أو الخاص لمدة لا تقل عن سنة</span>
+                            </li>
+                            <li>
+                                <i class="icofont-check text-white mr-2"></i>
+                                <span>أن لا يقل الدخل الشهري عن 4000 ريال سعودي</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-12">
+                        <h3 class="secondary-color wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">المستندات المطلوبة</h3>
+                        <img src="Content/img/divider.png" />
+                        <ul class="mt-2 text-gray wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                            <li>
+                                <i class="icofont-check text-white mr-2"></i>
+                                <span>تعريف بالراتب</span>
+                            </li>
+                            <li>
+                                <i class="icofont-check text-white mr-2"></i>
+                                <span>كشف حساب من البنك لا تقل عن 3 شهور</span>
+                            </li>
+                            <li>
+                                <i class="icofont-check text-white mr-2"></i>
+                                <span>صورة عن الهوية الوطنية</span>
+                            </li>
+                            <li>
+                                <i class="icofont-check text-white mr-2"></i>
+                                <span>إثبات بعنوان السكن</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------payment method-------------------->
+    <section class="payment-way wow fadeInDown" data-wow-duration="2s" data-wow-delay=".5s">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12 p-0 text-center ">
+                    <h3 class="text-white" data-animation="fadeInUp">طرق الدفع والسداد</h3>
+                    <img src="Content/img/divider2.png" />
+                </div>
+                <!---tabs-->
+                <div class="col-12">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="first-way-tab" data-toggle="tab" href="#first-way" role="tab" aria-controls="first-way" aria-selected="true">الطريقة الأولي</a>
+                            <a class="nav-item nav-link" id="second-way-tab" data-toggle="tab" href="#second-way" role="tab" aria-controls="second-way" aria-selected="false">الطريقة الثانية</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content w-100" id="nav-tabContent">
+                        <div class="tab-pane show active wow fadeIn" data-wow-duration="3s" data-wow-delay="0s" id="first-way" role="tabpanel" aria-labelledby="first-way-tab">
+                            <ul>
+                                <li>
+                                    <i class="icofont-check text-white mr-2"></i>
+                                    <span>دفع قيمة حجزالوحدة بقيمة 10.000 ريال سعودي( ويخصم من قيمة العقار )</span>
+                                </li>
+                                <li>
+                                    <i class="icofont-check text-white mr-2"></i>
+                                    <span>دفع بين 55% - 70 % من قيمة الوحدةاوالعقار قبل شرائنا الأصل</span>
+                                </li>
+                                <li>
+                                    <i class="icofont-check text-white mr-2"></i>
+                                    <span>دفع 30% من قيمة الوحدة او العقار علي مارحل المشروع</span>
+                                </li>
+                            </ul>
+                            <div class="col-12 step-one mt-4">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-6 border-right">
+                                        أقصي مبلغ للعقار
+                                    </div>
+                                    <div class="col-lg-9 col-md-8 col-6">
+                                        500.0000 ريال
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="col-12 step-one">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-6 border-right">
+                                        الدفعة المقدمة
+                                    </div>
+                                    <div class="col-lg-9 col-md-8 col-6">
+                                        50% -70% من قيمة الوحدة
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="col-12 step-one">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-6 border-right">
+                                        مواصفات وشروط البرنامج
+                                    </div>
+                                    <div class="col-lg-9 col-md-8 col-6">
+                                        ارض بتصنيف سكني غير زراعي او صناعي او أخري
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="col-12 step-one">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-6 border-right">
+                                        الدفعة الأخيرة
+                                    </div>
+                                    <div class="col-lg-9 col-md-8 col-6">
+                                        30% علي مراحل المشروع
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="second-way" role="tabpanel" aria-labelledby="second-way-tab">
+                            <ul>
+                                <li>
+                                    <i class="icofont-check text-white mr-2"></i>
+                                    <span>دفع قيمة حجزالوحدة بقيمة 10.000 ريال سعودي( ويخصم من قيمة العقار )</span>
+                                </li>
+                                <li>
+                                    <i class="icofont-check text-white mr-2"></i>
+                                    <span>دفع بين 55% - 70 % من قيمة الوحدةاوالعقار قبل شرائنا الأصل</span>
+                                </li>
+                                <li>
+                                    <i class="icofont-check text-white mr-2"></i>
+                                    <span>دفع 30% من قيمة الوحدة او العقار علي مارحل المشروع</span>
+                                </li>
+                            </ul>
+                            <div class="col-12 step-one mt-4">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-6 border-right">
+                                        أقصي مبلغ للعقار
+                                    </div>
+                                    <div class="col-lg-9 col-md-8 col-6">
+                                        500.0000 ريال
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="col-12 step-one">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-6 border-right">
+                                        الدفعة المقدمة
+                                    </div>
+                                    <div class="col-lg-9 col-md-8 col-6">
+                                        50% -70% من قيمة الوحدة
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="col-12 step-one">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-6 border-right">
+                                        مواصفات وشروط البرنامج
+                                    </div>
+                                    <div class="col-lg-9 col-md-8 col-6">
+                                        ارض بتصنيف سكني غير زراعي او صناعي او أخري
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="col-12 step-one">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-6 border-right">
+                                        الدفعة الأخيرة
+                                    </div>
+                                    <div class="col-lg-9 col-md-8 col-6">
+                                        30% علي مراحل المشروع
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!------------------------footer---------------------------->
+    <footer>
+        <div class="container pt-5 pb-5 text-center">
+            <div class="row wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="col-12">
+                    <h2 class="secondary-color pb-4">
+                        تريد شراء مسكن أحلامك بمواصفاتك المميزة
+                    </h2>
+                </div>
+                <div class="col-12  wow rubberBand animated" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <button type="submit" class="btn text-white"><span>أطلب مسكنك الأن</span></button>
+                </div>
+            </div>
+        </div>
+        <div class="container contact-us">
+            <div class="row text-gray">
+                <div class="col-lg-4 col-md-4 col-12 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                    <h1 class="secondary-color">تواصل معنا الأن </h1>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
+                    <div class="media">
+                        <span class="align-self-center text-white">
+                            <i class="icofont-location-pin"></i>
+                        </span>
+                        <div class="media-body">
+                            <p class="m-0">شارع التحلية - جدة</p>
+                            <p class="m-0">المملكة العربية السعودية</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12  wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">
+                    <div class="media">
+                        <span class="align-self-center text-white">
+                            <i class="icofont-phone"></i>
+                        </span>
+                        <div class="media-body">
+                            <p class="m-0">+966000000000</p>
+                            <p class="m-0">+966000000000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-area">
+        <!------------------------copyrights------------------------>
+        <div class="container">
+            <div class="row copyright">
+                <div class="col-lg-4 col-md-4 col-12 text-white d-flex align-items-center">
+                    <span class="d-md-inline-block">جميع الحقوق محفوظة . برنامج مسكنك 2017</span>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 d-flex align-items-center justify-content-center">
+                    <ul class="footer-contact">
+                        <li class="icofont-instagram"> </li>
+                        <li class="icofont-google-plus"> </li>
+                        <li class="icofont-whatsapp"> </li>
+                        <li class="icofont-twitter"> </li>
+                        <li class="icofont-facebook"> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 d-flex align-items-center justify-content-flex-end">
+                    <span class="text-white mr-3">تصميم وتطوير جلو أبس </span>
+                    <img src="Content/img/m7r.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------Chat-------------------------->
+    <div class="row chat-with-us">
+        <p class="text-white" data-toggle="popover" data-placement="top" data-content="Chat with us live">
+            <span> We are online - chat with us</span><i class="icofont-wechat mr-4 pr-2"></i>
+        </p>
+    </div>
+    <!------------------------scripts--------------------------->
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/popper.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/meanmenu.js"></script>
+    <script src="Scripts/Hammer.js"></script>
+    <script src="Scripts/wow.min.js"></script>
+    <script src="Scripts/main.js"></script>
+</body>
+</html>

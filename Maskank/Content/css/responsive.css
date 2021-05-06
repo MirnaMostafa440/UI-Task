@@ -1,0 +1,226 @@
+@media (max-width: 320px) {
+    .adv-form.pt-7 {
+        padding-top: 2rem
+    }
+    .maskank-program.pt-7{
+        padding-top:4rem;
+    }
+    .maskank-program h1{font-size:25px}
+    .about-section .vedio h3 {
+        bottom: -30%;
+        font-size: 20px;
+    }
+    .nav-tabs .nav-link {
+        padding: 0.5rem 1rem!important;
+    }
+    .application {
+        padding: 0px !important;
+        background-size: contain;
+    }
+    .payment-way {
+        padding: 20px 0px;
+        margin: 0px !important;
+    }
+    footer .container.pt-5.pb-5 {
+        padding: 20px 15px !important;
+    }
+ }
+    @media (max-width: 767px) {
+        .p-xs-0{padding:0px!important}
+        .m-xs-0{margin:0px!important}
+        .sk-folding-cube {
+            top: 45%;
+            right: 45%;
+        }
+            /* Navbar CSS */
+            #header {
+            background-image: url('../img/bg_top2.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            padding: 0px !important;
+            padding-bottom:40px!important
+        }
+        .about-section .vedio h3 {
+            bottom: -30%;
+            color: #234f7c !important;
+            font-size: 22px;
+        }
+        .about-section .vedio img{width:80%!important;}
+        .about-section ul {padding-bottom:20px}
+            .navbar-area .mobile-nav {
+            display: block;
+            position: relative;
+        }
+
+            .navbar-area .mobile-nav .logo {
+                position: absolute;
+                top: 1px;
+                left: 0;
+                z-index: 99999;
+            }
+
+                .navbar-area .mobile-nav .logo img {
+                    width: 80%;
+                }
+
+        .navbar-area .mean-container .mean-bar {
+            background-color: rgba(52, 198, 237,0.8);
+            padding: 0;
+            -webkit-box-shadow: 3px 5px 25px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 3px 5px 25px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-area .mean-container a.meanmenu-reveal {
+            padding: 15px 15px 0 0;
+            color: #fff;
+        }
+
+            .navbar-area .mean-container a.meanmenu-reveal span {
+                background: #fff;
+            }
+
+        .navbar-area .mobile-nav nav .navbar-nav .nav-item a {
+            color: #626262;
+        }
+
+            .navbar-area .mobile-nav nav .navbar-nav .nav-item a i {
+                display: none;
+            }
+
+        .navbar-area .main-nav {
+            display: none !important;
+        }
+        /*Navbar End*/
+        .adv-form.pt-7 {
+            padding-top: 2rem
+        }
+
+        .adv-form img {
+            width: 75%
+        }
+        .nav-tabs .nav-link{padding:0.5rem 2rem}
+        .hover-box {
+            padding: 10px 15px 25px 15px;
+        }
+        .testimonial {
+            display: flex;
+        }
+            .application{padding:70px 0px;font-size:13px}
+            .application h3{margin-top:20px}
+        .step-one {
+            padding: 10px 15px;
+        }
+        .payment-way {
+            margin: 0px !important;
+        }
+        .contact-us {
+            padding-top: 0px;
+            padding-bottom: 160px;
+            text-align: center;
+        }
+        .copyright {
+            padding: 10px 0px;
+        }
+        .copyright .d-flex {
+            display: inline-block !important;
+            text-align: center;
+            padding: 5px 0px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        /* Navbar CSS */
+        #header {
+            padding: 0px !important;
+            padding-bottom:40px!important;
+            background-image: url('../img/bg_top2.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .about-section .vedio h3 {
+            bottom: -15%;
+            color: #234f7c !important;
+        }
+        .about-section ul {
+            padding-bottom: 20px
+        }
+
+        .navbar-area .mobile-nav {
+            display: block;
+            position: relative;
+        }
+
+            .navbar-area .mobile-nav .logo {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                z-index: 99999;
+            }
+
+                .navbar-area .mobile-nav .logo img {
+                    width: 80%
+                }
+
+        .navbar-area .mean-container .mean-bar {
+            background-color: rgba(52, 198, 237,0.8);
+            padding: 0;
+            -webkit-box-shadow: 3px 5px 25px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 3px 5px 25px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-area .mean-container a.meanmenu-reveal {
+            padding: 15px 15px 0 0;
+        }
+
+        .navbar-area .mobile-nav nav .navbar-nav .nav-item a i {
+            display: none;
+        }
+
+        .navbar-area .main-nav {
+            display: none !important;
+        }
+
+        .adv-form.pt-7 {
+            padding-top: 1rem
+        }
+        footer .container.pt-5.pb-5 {
+            padding-top: 40px !important;
+            padding-bottom: 40px !important;
+        }
+        .payment-way {
+            margin: 0px !important;
+        }
+        .application {padding:105px 0px}
+        .contact-us {
+            padding-top: 0px;
+            padding-bottom: 160px;
+        }
+        .contact-us h1{font-size:30px;}
+        .contact-us .media{font-size:10px;}
+        .contact-us .media span{
+            width:40px;
+            height:40px;
+            left:20px;
+            font-size:30px;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+
+        .navbar-area .main-nav .navbar .navbar-nav .nav-item a {
+            margin: 0px 15px 0 0 !important;
+            font-size: 14px !important;
+        }
+        .about-section .vedio h3 {font-size:20px;}
+        .application{padding:125px 0px}
+        .payment-way {margin:0px!important}
+        .contact-us {padding-bottom:190px;}
+
+    }
+
+    @media (max-width: 1024px) {
+        .overlay, .testimonial::before, .testimonial::after {
+            display:none;
+        }
+
+    }
